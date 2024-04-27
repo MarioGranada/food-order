@@ -8,7 +8,6 @@ const Modal = ({ children, open, className = '', onClose }) => {
     if (open) {
       modal.showModal();
     }
-    console.log('in here oe open', { open });
 
     return () => {
       modal.close();
