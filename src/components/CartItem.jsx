@@ -1,5 +1,4 @@
 import { currencyFormatter } from '../utils/formatting';
-import Button from './UI/Button';
 
 const CartItem = ({ name, quantity, price, onIncrease, onDecrease }) => {
   return (
